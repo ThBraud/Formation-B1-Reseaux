@@ -31,4 +31,22 @@ Données continues:
 - Eléments résultant de la variation continue d’un phénomène physique
 
 L’information est transportée  sous différents formats (messages, paquets, cellules,…)
-et suivant des règles données => PROTOCOLES
+et suivant des règles données => **PROTOCOLES**
+
+## Types de réseaux :
+
+### Mode de transmission :
+
+- Mode point-à-point :
+    - Le support physique ne relie qu’une paire de nœuds
+- Mode multipoint (ou à diffusion) :
+    - Partage du support de transmission entre différents nœuds
+  
+### Topologies :
+
+#### Bus
+- Le support est partagé
+- Toutes les stations peuvent émettre en même temps
+- Le réseau gère les collisions
+  
+  ![alt text](Images/typo_bus.png)
