@@ -57,4 +57,13 @@ et suivant des règles données => **PROTOCOLES**
 - Les stations se passent la parole à tour de rôle.
 - Le débit est à peu près fixe.  
 
-    ![alt text](Images/Topologies_Anneau.png)
+    ![alt text](Images/Topologies_Anneau.png)  
+
+### Étoile  
+- Le nœud gère les conflits
+- Chaque station dispose du débit maximum.
+- Le nœud donne souvent accès à un serveur  
+
+    ![alt text](Images/Topologies_Etoiles.png)  
+
+
