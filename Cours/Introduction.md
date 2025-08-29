@@ -18,7 +18,7 @@
 
 💡*La vocation d'un réseau de communication est de transporter des informations d'un point A émetteur au point B récepteur*  
 
-## Qu’est ce que l’information?
+# Qu’est ce que l’information?
 
 Information = données, sous forme binaire 
 
@@ -33,20 +33,28 @@ Données continues:
 L’information est transportée  sous différents formats (messages, paquets, cellules,…)
 et suivant des règles données => **PROTOCOLES**
 
-## Types de réseaux :
+# Types de réseaux 
 
-### Mode de transmission :
+## Mode de transmission 
 
 - Mode point-à-point :
     - Le support physique ne relie qu’une paire de nœuds
 - Mode multipoint (ou à diffusion) :
     - Partage du support de transmission entre différents nœuds
   
-### Topologies :
+## Topologies 
 
-#### Bus
+### Bus  
 - Le support est partagé
 - Toutes les stations peuvent émettre en même temps
 - Le réseau gère les collisions
   
-  ![alt text](Images/typo_bus.png)
+    ![alt text](Images/Topologies_Bus.png)  
+
+
+### Anneau  
+- Les stations peuvent émettre lorsqu'elles y sont invitées.
+- Les stations se passent la parole à tour de rôle.
+- Le débit est à peu près fixe.  
+
+    ![alt text](Images/Topologies_Anneau.png)
