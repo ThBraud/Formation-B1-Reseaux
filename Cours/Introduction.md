@@ -66,4 +66,9 @@ et suivant des règles données => **PROTOCOLES**
 
     ![alt text](Images/Topologies_Etoiles.png)  
 
+### Arbre 
+- Des étoiles interconnectées
+- Fonctionne comme un bus actif
+- Le nombre de nœuds peut être limité
 
+    ![alt text](Images/Topologies_Arbre.png)
