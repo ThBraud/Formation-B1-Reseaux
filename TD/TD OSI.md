@@ -1,14 +1,14 @@
-# Énonce
+# 📝 Énoncé
 
 ![alt text](Images/Enonce.png)
 
-# Réponses
+# ✅ Réponses
 
 **Exercice 1 : Architectures en couches – Modèle OSI – Modèle TCP/IP**
 
 1. L’ISO : International Organizations for Standardisation (Organisation internationale de normalisation)  
    
-2. OSI signifie Open System Interconnexion. On a créé ce modèle pour les conversations entre machine. Les avantages de ce modèle est qui sépare tous les services, interfaces et protocoles grâce à ces multiples couches  
+2. OSI signifie Open System Interconnexion. On a créé ce modèle pour les conversations entre machines. Les avantages de ce modèle sont qu'il sépare tous les services, interfaces et protocoles grâce à ses multiples couches  
    
 3. Le modèle OSI comporte 7 couches :
     - Couche physique
@@ -38,11 +38,11 @@ Elles ont pour fonction les applications réseaux
 
 Cette analogie montre comment chaque étape du réseau postal correspond à une couche du modèle OSI, assurant une livraison efficace.
 
-5.  La communication d’égal à égal distribue et reçoit de l’informations. Chaque machines émet et reçoit de l’information.  
+5.  La communication d'égal à égal distribue et reçoit des informations. Chaque machine émet et reçoit de l'information.  
    
 6. L'encapsulation : L'encapsulation en réseaux consiste à ajouter des en-têtes et des métadonnées aux données pour les transmettre selon les protocoles de chaque couche.  
    
-7. Un PDU est l’unité de mesure des informations échanges dans un réseaux informatique  
+7. Un PDU est l'unité de mesure des informations échangées dans un réseau informatique  
 
 8. Les noms PDU des couches :
     - Pour la couche physique le bit
@@ -52,27 +52,27 @@ Cette analogie montre comment chaque étape du réseau postal correspond à une 
     - Des couches application, présentation et session : les données  
 
 
-9.  Dans un réseau local l’information circule en paquets. Pour le réseaux internet l’information paquet IP.  
+9.  Dans un réseau local, l'information circule en paquets. Pour les réseaux internet, l'information paquet IP.  
 
 10. Un protocole informatique est un ensemble de règles qui régissent les échanges de données ou le comportement collectif de processus ou d'ordinateurs en réseaux ou d'objets connectés.  
 
 11. Le modèle internet se nomme TCP/IP.
-12. La couche hôte réseaux : permettre un hôte d’envoyer des paquets IP sur le réseau.  
+12. La couche hôte réseaux : permettre à un hôte d'envoyer des paquets IP sur le réseau.  
     - La couche réseaux : Cette couche réalise l’interconnexion des réseaux (hétérogènes) distants sans connexion. Son rôle est de permettre l’injection de paquets dans n’importe quel réseau et l’acheminement de ces paquets indépendamment les uns des autres jusqu’à destination  
   
-    - La couche transport : Son rôle est le même que pour le modèle OSI permettre à des machines de soutenir une conversation en crée une architecture réseaux fiables et stables  
+    - La couche transport : Son rôle est le même que pour le modèle OSI, permettre à des machines de soutenir une conversation en créant une architecture réseau fiable et stable  
   
-    - La couche application : Contrairement au modèle OSI, c’est la couche immédiatement supérieure à la couche transport, tout simplement parce que les couches présentation et session sont apparues inutile ; en effet les logiciels réseau n’utilisent que très rarement ces 2 couches.  
+    - La couche application : Contrairement au modèle OSI, c'est la couche immédiatement supérieure à la couche transport, tout simplement parce que les couches présentation et session sont apparues inutiles ; en effet, les logiciels réseau n'utilisent que très rarement ces 2 couches.  
 
-13. Les personnes à l’origine du modèle TCP/IP sont inventés Vinton G. Cerf et Robert E. Kahn qui se sont inspirés des travaux de Louis Pouzin. Plus globalement ARPA.  
+13. Les personnes à l’origine du modèle TCP/IP sont Vinton G. Cerf et Robert E. Kahn qui se sont inspirés des travaux de Louis Pouzin. Plus globalement ARPA.  
 
 
-14. Gérer le transport de l’information, être assurer que tout le monde est capable de recevoir.
+14. Gérer le transport de l'information, être assuré que tout le monde est capable de recevoir.
 
 15. Le modèle TCP/IP comporte **4 couches** :
 - **Couche Application** : Fournit les services réseau aux applications (exemple : HTTP, FTP, SMTP)
 - **Couche Transport** : Assure la gestion de la communication entre les hôtes (exemple : TCP, UDP)
-- **Couche Internet** : Responsable du routage et de l’adressage IP (exemple : IP, ICMP)
+- **Couche Internet** : Responsable du routage et de l'adressage IP (exemple : IP, ICMP)
 - **Couche Accès Réseau** : Gère l'accès physique et les protocoles de la liaison de données (exemple : Ethernet, Wi-Fi) 
 
 
