@@ -2,7 +2,7 @@
 
 ## Adressage IP et masquage.
 
-### **Indiquer les parties " adresse réseau" et " adresse machine" des adresses IP suivantes, en précisant les masques réseaux.**
+### Indiquer les parties " adresse réseau" et " adresse machine" des adresses IP suivantes, en précisant les masques réseaux.
 
 
 a. 113.47.91.75  
@@ -25,7 +25,7 @@ Classe A, adresse réseau : 99.0.0.0
 Adresse machine : 0.47.91.75  
 Masque réseau : 255.0.0.0  
 
-### **Proposer une structuration du réseau 147.56.0.0 en 5 sous-réseaux. Donner les masques de chaque sous-réseau, donner l'adresse IP d'une machine de chaque sous-réseau.
+### Proposer une structuration du réseau 147.56.0.0 en 5 sous-réseaux. Donner les masques de chaque sous-réseau, donner l'adresse IP d'une machine de chaque sous-réseau.
 
 Pour diviser en 5 sous-réseaux, il faut utiliser 3 bits de l'adresse machine.
 L'adresse est une classe B, donc le masque est 255.255.0.0.  
@@ -42,7 +42,7 @@ SR 4 : 011 => 147.56.96.1 – 147.56.127.254
 SR 5 : 100 => 147.56.128.1 – 147.56.159.254  
 
 
-### **Indiquer les différents réseaux et/ou sous-réseaux présents dans le schéma ci-dessous. Donner pour chacun l’adresse réseau et le masque.**
+### Indiquer les différents réseaux et/ou sous-réseaux présents dans le schéma ci-dessous. Donner pour chacun l’adresse réseau et le masque.
 
 ![alt text](Images/Schéma_1_TD_Routage.png)
 
@@ -60,7 +60,7 @@ o SR2 : 162.131.128.1 – 162.131.255.254
 
 # Exercice 2
 
-## **Voici une illustration d'un échange de table de routage entre un routeur actif (propagation des infos) et un routeur passif (écoute et mise à jour seulement). Le protocole utilisé, RIP, est basé sur le vecteur de distances où la notion de distance désigne le nombre de routeurs à traverser pour atteindre la destination. Construire la nouvelle table de routage du routeur K à partir des données du routeur J.**
+## Voici une illustration d'un échange de table de routage entre un routeur actif (propagation des infos) et un routeur passif (écoute et mise à jour seulement). Le protocole utilisé, RIP, est basé sur le vecteur de distances où la notion de distance désigne le nombre de routeurs à traverser pour atteindre la destination. Construire la nouvelle table de routage du routeur K à partir des données du routeur J.
 
 
 ![alt text](Images/Exo2_TD_Routage.png)  
