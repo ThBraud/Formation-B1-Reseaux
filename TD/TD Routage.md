@@ -5,25 +5,25 @@ Adressage IP et masquage.
 **Indiquer les parties « adresse réseau » et « adresse machine « des adresse IP
 suivantes, en précisant les masques réseaux.**
 
-a. 113.47.91.75
+a. 113.47.91.75  
 Classe A, adresse réseau : 113.0.0.0  
 Adresse machine : 0.47.91.75  
 Masque réseau : 255.0.0.0
 
-b. 195.183.34.27
-Classe C, adresse réseau : 195.183.34.0
-Adresse machine : 0.0.0.27
-Masque réseau : 255.255.255.0
+b. 195.183.34.27  
+Classe C, adresse réseau : 195.183.34.0  
+Adresse machine : 0.0.0.27  
+Masque réseau : 255.255.255.0  
 
-c. 149.203.0.0
-Classe B, adresse réseau : 149.203.0.0
-Adresse machine : -
-Masque réseau : 255.255.0.0
+c. 149.203.0.0  
+Classe B, adresse réseau : 149.203.0.0  
+Adresse machine : -  
+Masque réseau : 255.255.0.0  
 
-d.  99.47.91.75
-Classe A, adresse réseau : 99.0.0.0
-Adresse machine : 0.47.91.75
-Masque réseau : 255.0.0.0
+d.  99.47.91.75  
+Classe A, adresse réseau : 99.0.0.0  
+Adresse machine : 0.47.91.75  
+Masque réseau : 255.0.0.0  
 
 **Proposer une structuration du réseau 147.56.0.0 en 5 sous-réseaux. Donner les
 masques de chaque sous-réseaux, donner l’adresse IP d’une machine de chaque sous réseaux.**  
