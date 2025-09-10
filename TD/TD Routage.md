@@ -1,9 +1,8 @@
-## Exercice 1 :
+# Exercice 1 :
 
-Adressage IP et masquage.
+## Adressage IP et masquage.
 
-**Indiquer les parties « adresse réseau » et « adresse machine « des adresse IP
-suivantes, en précisant les masques réseaux.**
+### **Indiquer les parties « adresse réseau » et « adresse machine « des adresse IP suivantes, en précisant les masques réseaux.**
 
 a. 113.47.91.75  
 Classe A, adresse réseau : 113.0.0.0  
