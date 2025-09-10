@@ -1,4 +1,4 @@
-# Exercice 1 :
+# 🔢 Exercice 1 :
 
 ## Adressage IP et masquage.
 
@@ -58,7 +58,7 @@ o SR2 : 162.131.128.1 – 162.131.255.254
 
 ![alt text](Images/Schéma_Réponse_1_TD_Routage.png)
 
-# Exercice 2
+# ✏️ Exercice 2
 
 ## Voici une illustration d'un échange de table de routage entre un routeur actif (propagation des infos) et un routeur passif (écoute et mise à jour seulement). Le protocole utilisé, RIP, est basé sur le vecteur de distances où la notion de distance désigne le nombre de routeurs à traverser pour atteindre la destination. Construire la nouvelle table de routage du routeur K à partir des données du routeur J.
 
@@ -67,7 +67,7 @@ o SR2 : 162.131.128.1 – 162.131.255.254
 
 
 
-# Exercice 3 
+# 🧩 Exercice 3 
 
 ![alt text](Images/Enonce_Exo3.png)  
 
