@@ -2,7 +2,8 @@
 
 ## Adressage IP et masquage.
 
-### **Indiquer les parties « adresse réseau » et « adresse machine « des adresse IP suivantes, en précisant les masques réseaux.**
+### **Indiquer les parties " adresse réseau" et " adresse machine" des adresses IP suivantes, en précisant les masques réseaux.**
+
 
 a. 113.47.91.75  
 Classe A, adresse réseau : 113.0.0.0  
@@ -24,11 +25,11 @@ Classe A, adresse réseau : 99.0.0.0
 Adresse machine : 0.47.91.75  
 Masque réseau : 255.0.0.0  
 
-### **Proposer une structuration du réseau 147.56.0.0 en 5 sous-réseaux. Donner les masques de chaque sous-réseaux, donner l’adresse IP d’une machine de chaque sous réseaux.**  
+### **Proposer une structuration du réseau 147.56.0.0 en 5 sous-réseaux. Donner les masques de chaque sous-réseau, donner l'adresse IP d'une machine de chaque sous-réseau.
 
-Pour diviser en 5 sous-réseaux, il faut utiliser 3 bit de l’adresse machine.
-L’adresse est une classe B, donc le masque est 255.255.0.0.  
-La nouvelle valeur du masque est : 255.255.224.0  
+Pour diviser en 5 sous-réseaux, il faut utiliser 3 bits de l'adresse machine.
+L'adresse est une classe B, donc le masque est 255.255.0.0.  
+La nouvelle valeur du masque est : 255.255.224.0 
 
 Maintenant on utilise un codage pour les 5 sous-réseau, en fonction du codage choisit, on déterminera les plages d’adresse IP pour chaque sous-réseau
 
