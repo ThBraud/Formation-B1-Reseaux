@@ -56,5 +56,11 @@ On utilise 1 bit pour diviser le réseau, masque : 255.255.192.0
 o SR1 : 162.131.0.1 – 162.131.127.254   
 o SR2 : 162.131.128.1 – 162.131.255.254   
 
-![alt text](image.png)
+![alt text](Images/Schéma_Réponse_1_TD_Routage.png)
 
+# Exercice 2
+
+## **Voici une illustration d'un échange de table de routage entre un routeur actif (propagation des infos) et un routeur passif (écoute et mise à jour seulement). Le protocole utilisé, RIP, est basé sur le vecteur de distances où la notion de distance désigne le nombre de routeurs à traverser pour atteindre la destination. Construire la nouvelle table de routage du routeur K à partir des données du routeur J.**
+
+
+![alt text](Images/Exo2_TD_Routage.png)
