@@ -63,4 +63,66 @@ o SR2 : 162.131.128.1 – 162.131.255.254
 ## **Voici une illustration d'un échange de table de routage entre un routeur actif (propagation des infos) et un routeur passif (écoute et mise à jour seulement). Le protocole utilisé, RIP, est basé sur le vecteur de distances où la notion de distance désigne le nombre de routeurs à traverser pour atteindre la destination. Construire la nouvelle table de routage du routeur K à partir des données du routeur J.**
 
 
-![alt text](Images/Exo2_TD_Routage.png)
+![alt text](Images/Exo2_TD_Routage.png)  
+
+
+
+# Exercice 3 
+
+![alt text](Images/Enonce_Exo3.png)  
+
+## Questions
+Nous faisons les hypothèses suivantes :
+
+1. Les caches “arp” des machines A, B et R sont vides
+2. La machine A a connaissance d'une route vers le réseau 192.168.20 passant par 192.168.10.249 et
+réciproquement la machine B voit le réseau 192.168.10.0 via le 192.168.20.249
+3. La machine A a connaissance de l'adresse IP de la machine B
+Déterminer les tables de routage pour A, B et R (routage statique).
+Détailler les échanges des données (et le protocole utilisé) dans le cas ou la machine A envoie un datagramme à
+la machine B (que se passe t-il sur le réseau ?)  
+
+## Réponses 
+
+### Tables de Routage A
+
+| Réseaux      | Masques        | Passerelle | Interface |
+|--------------|----------------|------------|-----------|
+| 192.168.10.0 | 255.255.255.0  | Direct     | A         |
+| 192.168.20.0 | 255.255.255.0  | Subnet     | R1        |
+
+
+### Table de Routage B
+
+| Réseaux       | Masques        | Passerelle | Interface |
+|---------------|----------------|------------|-----------|
+| 192.168.20.69 | 255.255.255.0  | Direct     | B         |
+| 192.168.20.249| 255.255.255.0  | Subnet     | R2        |
+
+### Table de routage C
+
+Pour celle-ci, tout est directement connecté.  
+
+a. A envoie un datagramme à B.  
+
+b. L’adresse IP de B appartient à un réseau diffèrent de celui de A : donc inter-routing.  
+
+c. A envoie le datagramme au routeur (intra-routing).  
+
+d. A utilise le protocole ARP pour obtenir l’adresse physique (MAC) du routeur.  
+
+e. A envoie une trame en broadcast (MAC= 11111…111).  
+
+f. Seulement le routeur réponde à A avec son adresse MAC.  
+
+g. A peut transmettre le datagramme au routeur.  
+
+h. Le routeur doit transférer le datagramme vers la machine B (intra-routing à travers l’interface ifR2).  
+
+i. Le routeur utilise le protocole ARP pour obtenir l’adresse physique (MAC) de B.  
+
+j. Le routeur envoie une trame en broadcast (MAC= 11111…111).  
+
+k. Seulement B réponde au routeur avec son adresse MAC
+
+l. Le routeur peut transmettre le datagramme à B.  
