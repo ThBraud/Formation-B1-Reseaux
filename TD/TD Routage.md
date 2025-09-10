@@ -6,8 +6,8 @@ Adressage IP et masquage.
 suivantes, en précisant les masques réseaux.**
 
 a. 113.47.91.75
-Classe A, adresse réseau : 113.0.0.0
-Adresse machine : 0.47.91.75
+Classe A, adresse réseau : 113.0.0.0  
+Adresse machine : 0.47.91.75  
 Masque réseau : 255.0.0.0
 
 b. 195.183.34.27
